@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'roboto_black';
+    src:local('roboto_black'), url('/assets/fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import 'home/banner';
+
+div.hello {
+    color: blue;
+    font-family: 'roboto_black';
+}
